@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import InfoBanner from './components/InfoBanner';
+import LocationGrid from './components/LocationGrid';
 import Footer from './components/Footer';
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <InfoBanner />
+      <LocationGrid />
       <Footer />
     </>
   );

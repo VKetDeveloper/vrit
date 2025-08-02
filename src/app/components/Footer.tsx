@@ -15,7 +15,7 @@ export default function Footer() {
             }}
         >
             <Typography variant="body2" color="text.secondary">
-                &copy; {new Date().getFullYear()} サイト名. All rights reserved.
+                &copy; {new Date().getFullYear()} VketReal Unofficial Garage Developers. All rights reserved.
             </Typography>
         </Box>
     );

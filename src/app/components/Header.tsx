@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import AppBar from '@mui/material/AppBar';
@@ -14,10 +15,14 @@ import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 
 const navItems = [
-    { label: '概要', href: '/about' },
-    { label: '企画', href: '/project' },
-    { label: 'チケット', href: '/ticket' },
-    { label: 'グッズ', href: '/goods' },
+    { label: 'ホーム', href: '/' },
+    // { label: 'イベント', href: '/event' },
+    // { label: '出展者', href: '/exhibitors' },
+    // { label: 'アクセス', href: '/access' },
+    // { label: '概要', href: '/about' },
+    // { label: '企画', href: '/project' },
+    // { label: 'チケット', href: '/ticket' },
+    // { label: 'グッズ', href: '/goods' },
 ];
 
 export default function Header() {
@@ -35,9 +40,11 @@ export default function Header() {
                 }}
             >
                 <Toolbar>
-                    <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                        サイトロゴ
-                    </Typography>
+                    <Box sx={{ flexGrow: 1 }}>
+                        <Link href="/" passHref>
+                            <Box component="img" src="/site_logo.png" alt="VketReal in Tours" sx={{ height: 70 }} />
+                        </Link>
+                    </Box>
                     {/* PC表示 */}
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                         {navItems.map((item) => (
