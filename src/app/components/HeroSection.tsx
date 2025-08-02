@@ -1,10 +1,8 @@
-'use client'; // 👈 これが必要！
+'use client';
 
 import React from 'react';
 import Box from '@mui/material/Box';
 import { motion } from 'framer-motion';
-
-const MotionBox = motion(Box); // motionコンポーネントを定義
 
 const HeroSection: React.FC = () => {
     return (
@@ -12,7 +10,8 @@ const HeroSection: React.FC = () => {
             sx={{
                 position: 'relative',
                 width: '100%',
-                height: '100vh',
+                aspectRatio: '16 / 10', // 16:10比率を維持
+                minHeight: '300px',
                 overflow: 'hidden',
             }}
         >
