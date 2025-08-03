@@ -26,24 +26,24 @@ const locations = [
   {
     id: 4,
     name: 'VketReal in KANSAI',
-    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    image: 'https://cdn.vrugd.jp/img/sapporo_vket.png',
     url: 'https://kansai.vrit.jp',
   },
-  {
+    {
     id: 5,
+    name: 'VketReal in NAGOYA',
+    image: 'https://cdn.vrugd.jp/img/nagoya.png',
+    url: '#',
+  },
+  {
+    id: 6,
     name: 'VketReal in HIROSHIMA',
     image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
     url: '#',
   },
   {
-    id: 6,
-    name: 'VketReal in YOKOHAMA',
-    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
-    url: '#',
-  },
-  {
     id: 7,
-    name: 'VketReal in NAGOYA',
+    name: 'VketReal in YOKOHAMA',
     image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
     url: '#',
   },
