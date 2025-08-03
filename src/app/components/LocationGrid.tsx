@@ -14,7 +14,7 @@ const locations = [
   {
     id: 2,
     name: 'VketReal in FUKUOKA',
-    image: 'https://cdn.vrugd.jp/img/fukuoka_KV.png',
+    image: 'https://cdn.vrugd.jp/img/fukuoka_KV2.png',
     url: 'https://fukuoka.vrit.jp',
   },
   {
@@ -50,7 +50,7 @@ const locations = [
   {
     id: 8,
     name: 'VketReal in SHIZUOKA',
-    image: 'https://cdn.vrugd.jp/status/notimg.png',
+    image: 'https://cdn.vrugd.jp/img/sizuoka_KV.png',
     url: '#',
   },
   {
