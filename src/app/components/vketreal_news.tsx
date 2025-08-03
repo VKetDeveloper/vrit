@@ -73,7 +73,7 @@ export default function VketReal_News() {
               },
             }}
           >
-            VketReal Discordサーバー
+            VketReal 公式Discordサーバー
           </Box>
         </Typography>
       </Box>
