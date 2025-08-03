@@ -44,7 +44,7 @@ const locations = [
   {
     id: 7,
     name: 'VketReal in YOKOHAMA',
-    image: 'https://cdn.vrugd.jp/status/notimg.png',
+    image: 'https://cdn.vrugd.jp/img/yokohama_KV.png',
     url: '#',
   },
   {
