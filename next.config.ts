@@ -1,7 +1,10 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ← これが必要
-}
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/vrit'
+};
 
-module.exports = nextConfig;
+export default nextConfig;
