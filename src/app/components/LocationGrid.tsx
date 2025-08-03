@@ -160,7 +160,7 @@ export default function LocationGrid() {
                 )}
                 <CardMedia
                   component="img"
-                  image={loc.image}
+                  src={loc.image}
                   alt={loc.name}
                   onLoad={() => handleImageLoad(i)}
                   sx={{
