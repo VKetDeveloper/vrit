@@ -5,6 +5,8 @@ import Box from '@mui/material/Box';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/autoplay';
+import { Autoplay as SwiperAutoplay } from 'swiper/modules';
 
 const images = [
     'https://cdn.vrugd.jp/img/California_KV.png',
@@ -13,6 +15,10 @@ const images = [
 ];
 
 const HeroSection: React.FC = () => {
+    // Import Swiper's Autoplay module from 'swiper'
+
+    // Re-export Swiper's Autoplay module for Swiper's modules prop
+    const Autoplay = SwiperAutoplay;
     return (
         <Box
             sx={{
@@ -25,7 +31,8 @@ const HeroSection: React.FC = () => {
         >
             <Swiper
                 loop
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{ delay: 5000, disableOnInteraction: false }}
+                modules={[Autoplay]}
                 style={{ width: '100%', height: '100%' }}
             >
                 {images.map((src, idx) => (
