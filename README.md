@@ -2,6 +2,9 @@
 
 ![Screenshot](./screenshot.png)
 
+VketReal in Toursは、有志開催のVketRealのポータルサイトです。<br / >
+VketRealの各会場へのリンクを集約し、訪問者が簡単にアクセスできるようにすることを目的としています。
+
 ## Getting Started
 
 First, run the development server:
