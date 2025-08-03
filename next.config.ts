@@ -1,10 +1,7 @@
-import type { NextConfig } from "next";
+// next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // ← これが必要
+}
 
-const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  output: 'export', // 静的エクスポートモード
-  // 他の設定オプションはここに追加
-};
-
-export default nextConfig;
+module.exports = nextConfig;
