@@ -55,7 +55,7 @@ const locations = [
   },
   {
     id: 9,
-    name: 'VketReal in VketReal in Kichijoji & Mitaka',
+    name: 'VketReal in Kichijoji & Mitaka',
     image: 'https://cdn.vrugd.jp/status/notimg.png',
     url: '#',
   },
