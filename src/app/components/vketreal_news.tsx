@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
-import { Box, Typography, Link as MuiLink } from '@mui/material';
+import { Box, Typography } from '@mui/material';
+
 
 
 
@@ -46,13 +47,44 @@ export default function VketReal_News() {
           VketReal本体の情報も共有したりするから興味のある人は気軽にJOIN👍<br />
           <br />
           参加はこちらから👇<br />
-          <MuiLink
-            href="https://x.com/VketReal/status/1950817761070125178"
+          <Box
+            component="a"
+            href="https://t.co/WAHjBJg6oA"
             rel="noopener noreferrer"
-            underline="always"
+            sx={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 1,
+              px: 2,
+              py: 1,
+              borderRadius: 2,
+              background: '#5865F2',
+              color: '#fff',
+              fontWeight: 600,
+              textDecoration: 'none',
+              boxShadow: 2,
+              transition: 'transform 0.2s',
+              animation: 'boing 1.2s infinite',
+              '&:hover': {
+                background: '#4752C4',
+                textDecoration: 'none',
+                transform: 'scale(1.08)',
+              },
+            }}
           >
             VketReal Discordサーバー
-          </MuiLink>
+            <style>
+              {`
+                @keyframes boing {
+                  0%, 100% { transform: scale(1); }
+                  20% { transform: scale(1.08); }
+                  40% { transform: scale(0.97); }
+                  60% { transform: scale(1.05); }
+                  80% { transform: scale(0.98); }
+                }
+              `}
+            </style>
+          </Box>
         </Typography>
       </Box>
     </Box>
