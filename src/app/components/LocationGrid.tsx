@@ -7,13 +7,13 @@ import Grid from '@mui/material/Unstable_Grid2';
 const locations = [
   {
     id: 1,
-    name: 'VketReal in Yokosuka',
+    name: 'VketReal in YOKOSUKA',
     image: 'https://cdn.vrugd.jp/img/VR_yokosuka_KV.png',
     url: 'https://yokosuka.vrit.jp',
   },
   {
     id: 2,
-    name: 'VketReal in Fukuoka',
+    name: 'VketReal in FUKUOKA',
     image: 'https://cdn.vrugd.jp/img/fukuoka.png',
     url: 'https://fukuoka.vrit.jp',
   },
@@ -22,6 +22,42 @@ const locations = [
     name: 'VketReal in SAPPORO',
     image: 'https://cdn.vrugd.jp/img/vris_stamprally.png',
     url: 'https://sapporo.vketreal.jp',
+  },
+  {
+    id: 4,
+    name: 'VketReal in KANSAI',
+    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    url: 'https://kansai.vrit.jp',
+  },
+  {
+    id: 5,
+    name: 'VketReal in HIROSHIMA',
+    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    url: '#',
+  },
+  {
+    id: 6,
+    name: 'VketReal in YOKOHAMA',
+    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    url: '#',
+  },
+  {
+    id: 7,
+    name: 'VketReal in NAGOYA',
+    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    url: '#',
+  },
+  {
+    id: 8,
+    name: 'VketReal in SHIZUOKA',
+    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    url: '#',
+  },
+  {
+    id: 9,
+    name: 'VketReal in VketReal in Kichijoji & Mitaka',
+    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    url: '#',
   },
 ];
 
