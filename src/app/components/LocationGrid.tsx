@@ -32,7 +32,7 @@ const locations = [
     {
     id: 5,
     name: 'VketReal in NAGOYA',
-    image: 'https://cdn.vrugd.jp/img/nagoya.png',
+    image: 'https://cdn.vrugd.jp/img/nagoya_KV.png',
     url: '#',
   },
   {
