@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useRef, useEffect, useState } from 'react';
-import { Box, Typography, CardMedia, Link as MuiLink, Skeleton } from '@mui/material';
+import React, { useRef, useEffect } from 'react';
+import { Box, Typography, CardMedia, Link as MuiLink } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 
 const locations = [
@@ -29,7 +29,7 @@ const locations = [
     image: 'https://cdn.vrugd.jp/img/kansai_osaka_KV.png',
     url: 'https://kansai.vrit.jp',
   },
-  {
+    {
     id: 5,
     name: 'VketReal in NAGOYA',
     image: 'https://cdn.vrugd.jp/img/nagoya_KV.png',
@@ -90,17 +90,6 @@ function useScrollAnimation() {
 
 export default function LocationGrid() {
   const itemRefs = useScrollAnimation();
-  const [loadedImages, setLoadedImages] = useState<boolean[]>(
-    new Array(locations.length).fill(false)
-  );
-
-  const handleImageLoad = (index: number) => {
-    setLoadedImages((prev) => {
-      const updated = [...prev];
-      updated[index] = true;
-      return updated;
-    });
-  };
 
   return (
     <Box sx={{ px: { xs: 2, sm: 4 }, py: 6, maxWidth: 1200, mx: 'auto' }}>
@@ -110,6 +99,7 @@ export default function LocationGrid() {
 
       <Grid container spacing={4}>
         {locations.map((loc, i) => (
+          // Unstable_Grid2ではitemは不要。xs, smでレスポンシブ指定だけでOK
           <Grid key={loc.id} xs={12} sm={6}>
             <MuiLink
               href={loc.url}
@@ -119,8 +109,8 @@ export default function LocationGrid() {
               sx={{ display: 'block', height: '100%' }}
             >
               <Box
-                ref={(el) => {
-                  itemRefs.current[i] = el as HTMLDivElement | null;
+                ref={(el: HTMLDivElement | null) => {
+                  itemRefs.current[i] = el;
                 }}
                 sx={{
                   position: 'relative',
@@ -132,7 +122,7 @@ export default function LocationGrid() {
                   opacity: 0,
                   transform: 'translateY(40px)',
                   transition:
-                    'opacity 0.8s cubic-bezier(.4,0,.2,1), transform 0.8s cubic-bezier(.4,0,.2,1), box-shadow 0.3s',
+                    'opacity 0.8s cubic-bezier(.4,0,.2,1), transform 0.8s cubic-bezier(.4,0,.2,1), box-shadow 0.3s, transform 0.3s',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
@@ -150,27 +140,17 @@ export default function LocationGrid() {
                   },
                 }}
               >
-                {!loadedImages[i] && (
-                  <Skeleton
-                    variant="rectangular"
-                    width="100%"
-                    height="100%"
-                    sx={{ position: 'absolute', top: 0, left: 0 }}
-                  />
-                )}
                 <CardMedia
                   component="img"
-                  src={loc.image}
+                  image={loc.image}
                   alt={loc.name}
-                  onLoad={() => handleImageLoad(i)}
                   sx={{
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
+                    aspectRatio: '16 / 10',
                     objectPosition: 'center',
                     backgroundColor: '#ddd',
-                    aspectRatio: '16 / 10',
-                    display: loadedImages[i] ? 'block' : 'none',
                   }}
                 />
                 <Box
