@@ -20,13 +20,13 @@ const locations = [
   {
     id: 3,
     name: 'VketReal in SAPPORO',
-    image: 'https://cdn.vrugd.jp/img/vris_stamprally.png',
+    image: 'https://cdn.vrugd.jp/img/sapporo_vket.png',
     url: 'https://sapporo.vketreal.jp',
   },
   {
     id: 4,
     name: 'VketReal in KANSAI',
-    image: 'https://cdn.vrugd.jp/img/sapporo_vket.png',
+    image: 'https://cdn.vrugd.jp/status/notimg.png',
     url: 'https://kansai.vrit.jp',
   },
     {
@@ -38,25 +38,25 @@ const locations = [
   {
     id: 6,
     name: 'VketReal in HIROSHIMA',
-    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    image: 'https://cdn.vrugd.jp/status/notimg.png',
     url: '#',
   },
   {
     id: 7,
     name: 'VketReal in YOKOHAMA',
-    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    image: 'https://cdn.vrugd.jp/status/notimg.png',
     url: '#',
   },
   {
     id: 8,
     name: 'VketReal in SHIZUOKA',
-    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    image: 'https://cdn.vrugd.jp/status/notimg.png',
     url: '#',
   },
   {
     id: 9,
     name: 'VketReal in VketReal in Kichijoji & Mitaka',
-    image: 'https://cdn.vrugd.jp/status/notimage_vris.png',
+    image: 'https://cdn.vrugd.jp/status/notimg.png',
     url: '#',
   },
 ];
