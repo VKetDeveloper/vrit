@@ -94,7 +94,7 @@ export default function LocationGrid() {
   return (
     <Box sx={{ px: { xs: 2, sm: 4 }, py: 6, maxWidth: 1200, mx: 'auto' }}>
       <Typography variant="h4" gutterBottom>
-        開催場所一覧
+        有志開催一覧
       </Typography>
 
       <Grid container spacing={4}>
