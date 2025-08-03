@@ -49,41 +49,31 @@ export default function VketReal_News() {
           参加はこちらから👇<br />
           <Box
             component="a"
-            href="https://t.co/WAHjBJg6oA"
+            href="https://discord.com/invite/qVJfM94Da7"
             rel="noopener noreferrer"
             sx={{
               display: 'inline-flex',
               alignItems: 'center',
+              justifyContent: 'center',
               gap: 1,
               px: 2,
-              py: 1,
+              py: 1.5,
               borderRadius: 2,
               background: '#5865F2',
               color: '#fff',
               fontWeight: 600,
               textDecoration: 'none',
               boxShadow: 2,
-              transition: 'transform 0.2s',
-              animation: 'boing 1.2s infinite',
+              width: '100%',
+              transition: 'background 0.2s, transform 0.2s',
               '&:hover': {
                 background: '#4752C4',
                 textDecoration: 'none',
-                transform: 'scale(1.08)',
+                transform: 'scale(1.03)',
               },
             }}
           >
             VketReal Discordサーバー
-            <style>
-              {`
-                @keyframes boing {
-                  0%, 100% { transform: scale(1); }
-                  20% { transform: scale(1.08); }
-                  40% { transform: scale(0.97); }
-                  60% { transform: scale(1.05); }
-                  80% { transform: scale(0.98); }
-                }
-              `}
-            </style>
           </Box>
         </Typography>
       </Box>
