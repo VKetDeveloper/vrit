@@ -24,9 +24,8 @@ jobs:
           elif [ -f pnpm-lock.yaml ]; then
             pnpm install --frozen-lockfile
           else
-            npm ci
-          fi
-
+            npm install --legacy-peer-deps
+          
       - name: Build with Next.js
         run: |
           if [ -f yarn.lock ]; then
@@ -35,7 +34,6 @@ jobs:
             pnpm next build
           else
             npm run build
-          fi
 
       - name: Export static site
         run: |
@@ -45,7 +43,6 @@ jobs:
             pnpm next export
           else
             npm run export
-          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
