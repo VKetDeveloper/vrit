@@ -38,7 +38,7 @@ const locations = [
   {
     id: 6,
     name: 'VketReal in HIROSHIMA',
-    image: 'https://cdn.vrugd.jp/status/notimg.png',
+    image: 'https://cdn.vrugd.jp/img/hiroshima_KV.png',
     url: '#',
   },
   {
