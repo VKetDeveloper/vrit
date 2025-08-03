@@ -9,6 +9,7 @@ const images = [
     'https://cdn.vrugd.jp/img/vket_Italia.png',
     'https://cdn.vrugd.jp/img/fukuoka.png',
     'https://cdn.vrugd.jp/img/VR_yokosuka_KV.png',
+    'https://cdn.vrugd.jp/img/fukuoka_KV2.png',
 ];
 
 const HeroSection: React.FC = () => {
@@ -24,7 +25,7 @@ const HeroSection: React.FC = () => {
             }}
         >
             <motion.img
-            src={images[3]}
+            src={images[4]}
             alt="Hero"
             initial={{ opacity: 0, scale: 1.1 }}
             animate={{ opacity: 1, scale: 1 }}
