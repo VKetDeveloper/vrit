@@ -7,4 +7,4 @@ const nextConfig = {
   basePath: '/vrit'
 };
 
-export default nextConfig;
+export default nextConfig;  
