@@ -104,7 +104,6 @@ export default function LocationGrid() {
             <MuiLink
               href={loc.url === '#' ? undefined : loc.url}
               underline="none"
-              target="_blank"
               rel="noopener noreferrer"
               sx={{ display: 'block', height: '100%', pointerEvents: loc.url === '#' ? 'none' : 'auto', cursor: loc.url === '#' ? 'default' : 'pointer' }}
             >
