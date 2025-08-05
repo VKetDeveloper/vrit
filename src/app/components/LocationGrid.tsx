@@ -43,24 +43,18 @@ const locations = [
   },
   {
     id: 7,
-    name: 'VketReal in FUKUOKA',
-    image: 'https://cdn.vrugd.jp/img/fukuoka_KV2.png',
-    url: '#',
-  },
-  {
-    id: 8,
     name: 'VketReal in HIROSHIMA',
     image: 'https://cdn.vrugd.jp/img/hiroshima_KV.png',
     url: '#',
   },
   {
-    id: 9,
+    id: 8,
     name: 'VketReal in SHIZUOKA',
     image: 'https://cdn.vrugd.jp/img/sizuoka_KV.png',
     url: '#',
   },
   {
-    id: 10,
+    id: 9,
     name: 'VketReal in Kichijoji & Mitaka',
     image: 'https://cdn.vrugd.jp/img/inogashira_KV.png',
     url: '#',
