@@ -33,7 +33,7 @@ const locations = [
     id: 5,
     name: 'VketReal in NAGOYA',
     image: 'https://cdn.vrugd.jp/img/nagoya_KV.png',
-    url: '#',
+    url: 'https://nagoya.vrit.jp',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const locations = [
     id: 7,
     name: 'VketReal in YOKOHAMA',
     image: 'https://cdn.vrugd.jp/img/yokohama_KV.png',
-    url: '#',
+    url: 'https://yokohama.vrit.jp',
   },
   {
     id: 8,
