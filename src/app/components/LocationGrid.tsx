@@ -9,7 +9,7 @@ const locations = [
     id: 1,
     name: 'VketReal in YOKOSUKA',
     image: 'https://cdn.vrugd.jp/img/VR_yokosuka_KV.png',
-    url: '#',
+    url: 'https://yokosuka.vrit.jp',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const locations = [
     id: 4,
     name: 'VketReal in KANSAI',
     image: 'https://cdn.vrugd.jp/img/kansai_osaka_KV.png',
-    url: '#',
+    url: 'https://kansai.vrit.jp',
   },
     {
     id: 5,
