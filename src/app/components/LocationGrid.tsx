@@ -38,7 +38,7 @@ const locations = [
   {
     id: 6,
     name: 'VketReal in KANSAI',
-    image: 'https://cdn.vrugd.jp/img/kansai_osaka_KV.png',
+    image: 'https://cdn.vrugd.jp/img/Osaka_KV.png',
     url: 'https://kansai.vrit.jp',
   },
   {
