@@ -9,13 +9,13 @@ const locations = [
     id: 1,
     name: 'VketReal in YOKOSUKA',
     image: 'https://cdn.vrugd.jp/img/VR_yokosuka_KV.png',
-    url: 'https://yokosuka.vrit.jp',
+    url: '#',
   },
   {
     id: 2,
     name: 'VketReal in FUKUOKA',
     image: 'https://cdn.vrugd.jp/img/fukuoka_KV2.png',
-    url: 'https://fukuoka.vrit.jp',
+    url: '#',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const locations = [
     id: 4,
     name: 'VketReal in KANSAI',
     image: 'https://cdn.vrugd.jp/img/kansai_osaka_KV.png',
-    url: 'https://kansai.vrit.jp',
+    url: '#',
   },
     {
     id: 5,
@@ -102,11 +102,11 @@ export default function LocationGrid() {
           // Unstable_Grid2ではitemは不要。xs, smでレスポンシブ指定だけでOK
           <Grid key={loc.id} xs={12} sm={6}>
             <MuiLink
-              href={loc.url}
+              href={loc.url === '#' ? undefined : loc.url}
               underline="none"
               target="_blank"
               rel="noopener noreferrer"
-              sx={{ display: 'block', height: '100%' }}
+              sx={{ display: 'block', height: '100%', pointerEvents: loc.url === '#' ? 'none' : 'auto', cursor: loc.url === '#' ? 'default' : 'pointer' }}
             >
               <Box
                 ref={(el: HTMLDivElement | null) => {
