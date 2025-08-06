@@ -4,6 +4,7 @@ import InfoBanner from './components/InfoBanner';
 import LocationGrid from './components/LocationGrid';
 import Footer from './components/Footer';
 import Vket_RealNews from './components/vketreal_news';
+
 export default function Home() {
   return (
     <>

@@ -16,6 +16,8 @@
     "@mui/material": "^5.18.0",
     "@mui/system": "^5.18.0",
     "@mui/types": "^7.4.4",
+    "@sentry/react": "^10.1.0",
+    "@sentry/wizard": "^6.1.2",
     "framer-motion": "^12.23.12",
     "next": "15.4.5",
     "react": "19.1.0",
