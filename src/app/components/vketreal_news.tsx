@@ -49,7 +49,7 @@ export default function VketReal_News() {
           参加はこちらから👇<br />
           <Box
             component="a"
-            href="https://discord.com/invite/qVJfM94Da7"
+            href="https://discord.gg/GuCzzqrGEj"
             rel="noopener noreferrer"
             sx={{
               display: 'inline-flex',
@@ -73,7 +73,7 @@ export default function VketReal_News() {
               },
             }}
           >
-            VketReal 公式Discordサーバー
+            Vket 公式Discordサーバー
           </Box>
         </Typography>
       </Box>
