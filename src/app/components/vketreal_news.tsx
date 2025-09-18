@@ -47,6 +47,36 @@ export default function VketReal_News() {
           VketReal本体の情報も共有したりするから興味のある人は気軽にJOIN👍<br />
           <br />
           参加はこちらから👇<br />
+
+          <Box
+            component="a"
+            href="https://discord.gg/qVJfM94Da7"
+            rel="noopener noreferrer"
+            sx={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 1,
+              px: 2,
+              py: 1.5,
+              borderRadius: 2,
+              background: '#5865F2',
+              color: '#fff',
+              fontWeight: 600,
+              textDecoration: 'none',
+              boxShadow: 2,
+              width: '100%',
+              transition: 'background 0.2s, transform 0.2s',
+              '&:hover': {
+                background: '#4752C4',
+                textDecoration: 'none',
+                transform: 'scale(1.03)',
+              },
+            }}
+          >
+            VketReal 公式Discordサーバー
+          </Box>
+
           <Box
             component="a"
             href="https://discord.gg/GuCzzqrGEj"
