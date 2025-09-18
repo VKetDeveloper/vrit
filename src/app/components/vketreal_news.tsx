@@ -48,7 +48,7 @@ export default function VketReal_News() {
           <br />
           参加はこちらから👇<br />
 
-          <Box
+            <Box
             component="a"
             href="https://discord.gg/qVJfM94Da7"
             rel="noopener noreferrer"
@@ -66,18 +66,19 @@ export default function VketReal_News() {
               textDecoration: 'none',
               boxShadow: 2,
               width: '100%',
+              m: '10px 0',
               transition: 'background 0.2s, transform 0.2s',
               '&:hover': {
-                background: '#4752C4',
-                textDecoration: 'none',
-                transform: 'scale(1.03)',
+              background: '#4752C4',
+              textDecoration: 'none',
+              transform: 'scale(1.03)',
               },
             }}
-          >
+            >
             VketReal 公式Discordサーバー
-          </Box>
+            </Box>
 
-          <Box
+            <Box
             component="a"
             href="https://discord.gg/GuCzzqrGEj"
             rel="noopener noreferrer"
@@ -95,16 +96,17 @@ export default function VketReal_News() {
               textDecoration: 'none',
               boxShadow: 2,
               width: '100%',
+              m: '10px 0',
               transition: 'background 0.2s, transform 0.2s',
               '&:hover': {
-                background: '#4752C4',
-                textDecoration: 'none',
-                transform: 'scale(1.03)',
+              background: '#4752C4',
+              textDecoration: 'none',
+              transform: 'scale(1.03)',
               },
             }}
-          >
+            >
             Vket 公式Discordサーバー
-          </Box>
+            </Box>
         </Typography>
       </Box>
     </Box>
