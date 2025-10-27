@@ -33,7 +33,7 @@ const locations = [
     id: 5,
     name: 'VketReal in SAPPORO',
     image: 'https://cdn.vrugd.jp/img/sapporo_vket.png',
-    url: 'https://sapporo.vketreal.jp',
+    url: 'https://vris.jp/',
   },
   {
     id: 6,
